@@ -1,0 +1,10 @@
+<!DOCTYPE books [
+<!ELEMENT books (book+)>
+<!ELEMENT book (name)>
+<!ELEMENT name (#PCDATA)>
+]>
+<books>
+<book>
+<name>Corejava</name>
+</book>
+</books>
